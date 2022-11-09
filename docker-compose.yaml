@@ -8,3 +8,4 @@ services:
       - 3021:3021
     volumes:
       - .:/app
+    command: node ./index.js

@@ -2,6 +2,10 @@
 
 Run in project root folder...
 
-``` docker-compose up ```
+**To Install dependencies**
+```docker-compose run --rm app yarn``` 
 
-And consume over localhost:3021
+**To run**
+``` docker-compose up -d```
+
+And the API will be available on http://localhost:3021
